@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "NIXGONM-Vb";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/NIXGONM-Vb.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "locus_sangsang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+h1 {
+  font-family: "NIXGONM-Vb", sans-serif;
+  font-size: 3em;
+}
+
+p {
+  font-family: "locus_sangsang", sans-serif;
+}
