@@ -24,6 +24,41 @@ h1 {
   font-size: 3em;
 }
 
+h2 {
+  font-family: "NIXGONM-Vb", sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: "NIXGONM-Vb", sans-serif;
+  font-size: 2em;
+}
+
 p {
   font-family: "locus_sangsang", sans-serif;
+}
+
+hr {
+  width: 100%;
+  border: 0;
+  height: 1px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.emoji {
+  font-size: 30pt;
+}
+
+/* 본문 구성 */
+
+#profile {
+  margin: 10px;
+  text-align: center;
+}
+
+.file1 {
+  padding: 20px;
 }
