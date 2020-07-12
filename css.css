@@ -26,7 +26,6 @@ h1 {
 
 h2 {
   font-family: "NIXGONM-Vb", sans-serif;
-  text-align: center;
   font-size: 2em;
 }
 
@@ -56,9 +55,29 @@ hr {
 
 #profile {
   margin: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
+}
+
+#profile > h2 {
+  text-align: center;
+}
+
+#profile > img {
+  border-radius: 70%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
 }
 
 .file1 {
   padding: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.file1 > p {
+  margin: 0;
+  margin-bottom: 3px;
 }
