@@ -15,8 +15,10 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 h1 {
@@ -51,6 +53,19 @@ hr {
   font-size: 30pt;
 }
 
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
 /* 본문 구성 */
 
 #profile {
@@ -58,6 +73,8 @@ hr {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: center;
+  height: 100vh;
+  padding-top: 5%;
 }
 
 #profile > h2 {
@@ -80,4 +97,26 @@ hr {
 .file1 > p {
   margin: 0;
   margin-bottom: 3px;
+}
+
+.item1 {
+  margin: 5px;
+  margin-top: 10px;
+}
+
+.item1 > a {
+  margin: 0;
+  padding: 0;
+}
+
+.item1 > a > h4 {
+  font-family: "NIXGONM-Vb", sans-serif;
+  color: #8c8c8c;
+  display: inline-block;
+  margin: 3px;
+}
+
+.item1 > a > p {
+  display: inline-block;
+  margin: 3px;
 }
