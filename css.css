@@ -66,6 +66,10 @@ a:hover {
   text-decoration: none;
 }
 
+footer {
+  padding: 10px;
+}
+
 /* 본문 구성 */
 
 #profile {
@@ -119,4 +123,67 @@ a:hover {
 .item1 > a > p {
   display: inline-block;
   margin: 3px;
+}
+
+.file2 {
+  padding: 20px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.file2 > p {
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.item2 {
+  border: solid 2px;
+  border-color: #8c8c8c;
+  width: 350px;
+  padding: 10px;
+  transition-duration: 0.5s;
+  margin-bottom: 10px;
+}
+
+.item2 > span {
+  color: #8c8c8c;
+  display: inline-block;
+  transition-duration: 0.5s;
+}
+
+.item2 > .name {
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  transition-duration: 0.5s;
+}
+
+.item2 > .id {
+  display: none;
+  transition-duration: 0.5s;
+}
+
+.item2:hover {
+  background-color: #8c8c8c;
+  transition-duration: 0.5s;
+}
+
+.item2:hover > span {
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.item2:hover > .name {
+  display: none;
+  transition-duration: 0.5s;
+}
+
+.item2:hover > .id {
+  color: white;
+  display: inline-block;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  transition-duration: 0.5s;
 }
