@@ -36,6 +36,11 @@ h3 {
   font-size: 2em;
 }
 
+h4 {
+  font-family: "NIXGONM-Vb", sans-serif;
+  ]font-size: 1em;
+}
+
 p {
   font-family: "locus_sangsang", sans-serif;
 }
@@ -121,6 +126,36 @@ footer {
 }
 
 .item1 > a > p {
+  display: inline-block;
+  margin: 3px;
+}
+
+.item1 > details {
+  padding: 0;
+  margin: 3px;
+  font-family: "NIXGONM-Vb", sans-serif;
+  color: #8c8c8c;
+  display: inline-block;
+}
+
+.item1 > details > summary {
+  font-family: "NIXGONM-Vb", sans-serif;
+  color: #8c8c8c;
+}
+
+.item1 > details > a {
+  margin: 0;
+  padding: 0;
+}
+
+.item1 > details > a > h4 {
+  font-family: "NIXGONM-Vb", sans-serif;
+  color: #8c8c8c;
+  display: inline-block;
+  margin: 3px;
+}
+
+.item1 > details > a > p {
   display: inline-block;
   margin: 3px;
 }
