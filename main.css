@@ -120,9 +120,21 @@ body {
 /* */
 
 @media screen and (max-width: 768px) {
+    #body_1 {
+        height: fit-content;
+    }
+    
     #text_1 {
         width: 70vw;
         display: block;
+    }
+
+    #text_1 > h3 {
+        font-size: 6vmin;
+    }
+
+    #text_1 > p {
+        font-size: 4vmin;
     }
 
     #text_2 {
@@ -130,5 +142,13 @@ body {
         display: block;
         margin-left: 5vw;
         margin-top: 3vmin;
+    }
+
+    #text_2 > h3 {
+        font-size: 6vmin;
+    }
+
+    #text_2 > p {
+        font-size: 4vmin;
     }
 }
