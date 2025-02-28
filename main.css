@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Establish";
+    src: url("establish Retrosans.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "gowun";
+    src: url("GowunBatang-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #131010;
+}
+
+/* */
+
+#profile {
+    height: 99vh;
+}
+
+#profile > h1 {
+    font-family: "Establish", sans-serif;
+    font-size: 20vmin;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: fit-content;
+    background-color: #6A80B9;
+    color: #131010;
+}
+
+#profile > h2 {
+    font-family: "Establish", sans-serif;
+    font-size: 10vmin;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #155E95;
+}
+
+/* */
+
+#body_1 {
+    height: 99vh;
+}
+
+#body_1 > h1 {
+    font-family: "Establish", sans-serif;
+    font-size: 10vmin;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #6A80B9;
+}
+
+/* */
+
+#text {
+    margin-top: 8vh;
+}
+
+#text_1 {
+    width: 45vw;
+    margin-left: 5vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#text_1 > h3 {
+    font-size: 3vmin;
+    background-color: #6A80B9;
+    color: #131010;
+    font-family: "Establish", sans-serif;
+    width: fit-content;
+}
+
+#text_1 > p {
+    font-size: 2vmin;
+    color: #6A80B9;
+    font-family: "gowun", sans-serif;
+    margin-top: 1vmin;
+}
+
+#text_2 {
+    width: 45vw;
+    margin-left: 3vw;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#text_2 > h3 {
+    font-size: 3vmin;
+    background-color: #6A80B9;
+    color: #131010;
+    font-family: "Establish", sans-serif;
+    width: fit-content;
+}
+
+#text_2 > p {
+    font-size: 2vmin;
+    color: #6A80B9;
+    font-family: "gowun", sans-serif;
+    margin-top: 1vmin;
+}
+
+/* */
+
+@media screen and (max-width: 768px) {
+    #text_1 {
+        width: 70vw;
+        display: block;
+    }
+
+    #text_2 {
+        width: 70vw;
+        display: block;
+        margin-left: 5vw;
+        margin-top: 3vmin;
+    }
+}
