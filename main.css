@@ -129,6 +129,7 @@ a {
 @media screen and (max-width: 768px) {
     #body_1 {
         height: fit-content;
+        margin-top: 1vh;
     }
     
     #text_1 {
